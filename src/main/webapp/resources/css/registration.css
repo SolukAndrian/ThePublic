@@ -1,0 +1,193 @@
+nav
+{
+    margin: auto;
+    width: 1200px;
+    padding: 10px;
+    padding-left: 25px;
+}
+nav.navbar-default {
+    background-color: #3c45be;
+    border: 2px;
+    border-radius: 15px;
+}
+.navbar-header .navbar-brand {
+    margin: 3px;
+    background-image: url(/resources/img/logo1.png);
+    background-size: 201px 50px;
+    width: 201px;
+    height: 50px;
+    border: 0px;
+    border-radius: 14px;
+    margin-left: 30px;
+}
+.navbar li a, .navbar .navbar-brand {
+    margin-left: 20px;
+}
+
+/* Цвет и фон активного пункта меню, а также поднесении к нему курсора мышки или при его нахождении в фокусе */
+nav.navbar-default .navbar-nav > .active > a,
+nav.navbar-default .navbar-nav > .active > a:hover,
+nav.navbar-default .navbar-nav > .active > a:focus {
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #101484;
+    border: 2px;
+    border-radius: 10px;
+}
+nav.navbar-default .navbar-nav > li > a {
+    color: #ecf0f1;
+}
+nav.navbar-default .navbar-nav > li > button {
+    margin-top: 13px;
+    margin-left: 30px;
+    color: white;
+    background: #000584;
+    border: black solid 1px;
+    border-radius: 7px;
+    height: 30px;
+    width: 90px;
+}
+nav.navbar-default .navbar-nav > li > .colortext {
+    color: black;
+}
+nav.navbar-default .navbar-nav > li > .forgot {
+    margin-top: -10px;
+    height: 20px;
+    width: 105px;
+    font-size: 10px;
+}
+nav.navbar-default .navbar-nav > li > p {
+    font-size: 16px;
+    margin-top: 16px;
+    margin-left: 25px;
+    margin-right: 8px;
+    color: #ecf0f1;
+}
+nav.navbar-default .navbar-nav > li > input {
+    font-size: 16px;
+    margin-top: 13px;
+    margin-right: 7px;
+    color: #ecf0f1;
+}
+.container{
+    margin: auto;
+}
+.imgReg{
+    width: 500px;
+    float: left;
+}
+.imgReg .img{
+    margin-top: 40px;
+    background-image: url(/resources/img/pyNVUg5EM0j.png);
+    background-size: 537px, 195px;
+    height: 200px;
+}
+.imgReg .info{
+    margin-top: 10px;
+    font-size: 18px;
+    color: darkblue;
+}
+
+.registration
+{
+    width:640px;
+    float: left;
+}
+
+.registration h1
+{
+    width: 200px;
+    margin: auto;
+}
+.registration .reg
+{
+    width: 480px;
+    margin: auto;
+    font-size: 18px;
+    margin-top: 25px;
+
+}
+.registration input{
+    margin-left: 14px;
+}
+.registration .reg button
+{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 140px;
+    background-color: #3c45be;
+    color: white;
+    border: 2px black;
+    border-radius: 15px;
+}
+.container8{
+    margin: auto;
+    width: 1100px;
+    border: black solid 2px;
+    border-radius: 15px;
+}
+.container8 button
+{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 340px;
+    background-color: #3c45be;
+    color: white;
+    border: 2px black;
+    border-radius: 15px;
+}
+.container8 h1{
+    margin: auto;
+
+    width: 900px;
+}
+.leftContainer{
+    margin: auto;
+}
+.leftContainer label
+{
+    margin-left: 20px;
+    width: 200px;
+    font-family: monospace;
+    font-size: 22px;
+    margin-top: 25px;
+
+}
+.leftContainer input{
+    margin-right: 54px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+textarea{
+    margin-right: 54px;
+    font-size: 18px;
+}
+.restorePassword{
+    margin: auto;
+    padding: 30px 20px 30px 90px;
+    width: 500px;
+    height: 20%;
+    background-color: aliceblue
+}
+.restorePassword button{
+    background-color: #4066e6;
+    color: white;
+}
+.newPassword{
+    margin: auto;
+    padding: 30px 60px;
+    width: 700px;
+    height: 30%;
+    background-color: aliceblue
+}
+.newPassword button{
+    margin: auto;
+    display: table;
+    margin: 0 auto;
+    background-color: #4066e6;
+    color: white;
+    width: 180px;
+    height: 40px;
+}

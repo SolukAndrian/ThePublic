@@ -1,0 +1,337 @@
+nav
+{
+    margin: auto;
+    width: 1100px;
+    padding: 10px;
+}
+nav.navbar-default {
+    background-color: #3c45be;
+    border: 2px;
+    border-radius: 15px;
+}
+.navbar-header .navbar-brand {
+    background-image: url(/resources/img/logo1.png);
+    background-size: 201px 50px;
+    width: 201px;
+    height: 50px;
+    border: 0px;
+    border-radius: 14px;
+}
+.navbar li a, .navbar .navbar-brand {
+    margin-left: 20px;
+}
+
+/* Цвет и фон активного пункта меню, а также поднесении к нему курсора мышки или при его нахождении в фокусе */
+nav.navbar-default .navbar-nav > .active > a,
+nav.navbar-default .navbar-nav > .active > a:hover,
+nav.navbar-default .navbar-nav > .active > a:focus {
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #101484;
+    border: 2px;
+    border-radius: 10px;
+}
+nav.navbar-default .navbar-nav > li > a {
+    color: #ecf0f1;
+}
+.container1
+{
+    margin: auto;
+    width: 1100px;
+    height: 700px;
+}
+menu{
+    height: 400px;
+    width: 160px;
+    margin-left: -70px;
+    float: left;
+}
+.size{
+    width: 100px;
+    height: 20px;
+}
+.all:hover{
+    color: black;
+}
+.text:hover{
+    text-decoration: none;
+}
+.figure{
+    width: 1000px;
+    margin: 0 0 0 120px;
+}
+.left-side{
+    width: 230px;
+    height: 800px;
+    float: left;
+}
+.right-side
+{
+    width: 740px;
+    float: left;
+    display: table;
+    margin: 0 0 0 226px;
+    position: absolute;
+
+}
+.foto{
+    height: 260px;
+    width: 230px;
+    /*background-image: url(/resources/img/1443914169_6f7f6554.jpg);*/
+    background-size: 100% 100%;
+    border-style: inset;
+    border-color: #101484;
+    border-radius: 7px;
+}
+.foto img{
+    height: 253px;
+    width: 223px;
+    /*background-image: url(/resources/img/1443914169_6f7f6554.jpg);*/
+    background-size: 100% 100%;
+    border-style: inset;
+    border-color: #101484;
+    border-radius: 7px;
+}
+.info{
+    margin: 0 0 0 15px;
+    height: auto;
+    width: 730px;
+    float: left;
+    padding: 15px;
+    border-style: inset;
+    border-color: #101484;
+    border-radius: 7px;
+}
+.infoam{
+    float: left;
+}
+.ns{
+    color: #101484;
+    font-size: 21px;
+    width: 200px;
+    float: left;
+}
+.status{
+    width: 100%;
+    float: left;
+}
+.line{
+    width: 50px;
+    float: right;
+}
+.present{
+    width: 230px;
+    height: 100px;
+    margin: 15px 0 0 0px;
+    border-style: inset;
+    border-color: #101484;
+    border-radius: 7px;
+    padding: 10px;
+    color: #101484;
+}
+.myfoto{
+    width: 730px;
+    height: 150px;
+    margin: 15px;
+    border-style: inset;
+    border-color: #101484;
+    border-radius: 7px;
+    display: inline-block;
+    color: #101484;
+    padding: 10px;
+}
+.myNews
+{
+    width: 730px;
+    margin: 15px;
+    border-style: inset;
+    border-color: #101484;
+    border-radius: 7px;
+    display: inline-block;
+    color: #101484;
+    padding: 10px;
+}
+.someNews
+{
+    width: 700px;
+    border: inset 2px;
+    padding-left: 10px;
+}
+.someNews h3
+{
+    padding-left: 300px;
+}
+.newsImg
+{
+    margin: auto;
+    background-image: url(/resources/img/ews.jpg);
+    background-size: 700px 400px;
+    height: 400px;
+
+}
+.friend{
+    height: 300px;
+    width: 230px;
+    border-style: inset;
+    border-color: #101484;
+    border-radius: 7px;
+    margin: 35px 0 0 0px;
+    padding: 10px;
+}
+
+.peopleSearch{
+    margin-top: 5px;
+    margin-left: 50px;
+    width: 600px;
+    float: left;
+}
+
+.people{
+    height: 200px;
+    background-color: #a4aaf4;
+    border: white solid 1px;
+    border-radius: 15px;
+}
+.containerFriendsRequests
+{
+    margin-top: 5px;
+    margin-left: 50px;
+    width: 600px;
+    float: left;
+}
+.people img{
+    margin: 25px;
+    width: 125px;
+    height: 125px;
+    border: black solid 1px;
+    border-radius: 50%;
+    float: left;
+}
+.people h4{
+    margin-top: 35px;
+}
+.people h5{
+    margin-top: 15px;
+}
+.people .addToFriend:hover{
+    background-color:#3c45be;
+}
+.people .addToFriend, .writeMessage{
+    margin-top: 15px;
+    background-color:#101484;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: white solid 2px;
+    border-radius: 25px;
+}
+.sort{
+    margin-left: 70px;
+    float: left;
+}
+
+.requestAndFriend{
+    margin: auto;
+    width: 460px;
+}
+.requestAndFriend button{
+    width: 150px;
+    height: 40px;
+    background-color: #3c45be;
+    color: white;
+    border: white solid 1px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.requestAndFriend button:hover{
+    background-color: #101341;
+}
+.containerFriendsRequests button:active{
+    background-color: cornflowerblue;
+}
+.addToFriendButton{
+    background: #3c45be;
+    width: 230px;
+    height: 40px;
+    border: white solid 2px;
+    border-radius: 15px;
+}
+
+.peopleMessage{
+    width: 700px;
+    height: 200px;
+    margin-left: 100px;
+    border: #3c45be solid 3px;
+    border-radius: 15px;
+    float: left;
+}
+.peopleMessage img{
+    margin: 30px;
+    width: 125px;
+    height: 125px;
+    border: black solid 1px;
+    border-radius: 50%;
+    float: left;
+}
+.peopleMessage h4{
+    margin-left: 180px;
+    border-bottom: black solid 2px;
+}
+.peopleMessage .messageText{
+    float: left;
+    height: 140px;
+    width: 460px;
+    border: #3c45be solid 3px;
+
+}
+.messageWithFriend{
+    width: 700px;
+    height: 800px;
+    margin-left: 100px;
+    border: #3c45be solid 3px;
+    border-radius: 15px;
+    float: left;
+}
+.messageWithFriend img{
+    margin: 25px;
+    width: 125px;
+    height: 125px;
+    border: black solid 1px;
+    border-radius: 50%;
+    float: left;
+}
+.messageWithFriend h4{
+    margin-left: 180px;
+    border-bottom: black solid 2px;
+}
+.messageWithFriend .messageText{
+    overflow: scroll;
+    float: left;
+    height: 540px;
+    width: 460px;
+    border: #3c45be solid 3px;
+
+}
+.messageWithFriend textarea{
+    margin-left: 175px;
+    height: 140px;
+    width: 460px;
+    border: #3c45be solid 3px;
+}
+.sendMessage {
+    background-color: #5c5fac;
+    color: whitesmoke;
+    height: 50px;
+    width: 100px;
+    margin-left: 535px;
+}
+.messageWithFriend p{
+    width: 430px;
+    text-align: center;
+    font-family: monospace;
+    border-bottom: 1px solid black;
+}
+.dateM{
+    display: flex;
+    justify-content: flex-end;
+}
